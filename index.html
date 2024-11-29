@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventskalender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon512_rounded.png">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://cdn.jsdelivr.net/gh/scottschiller/Snowstorm/snowstorm-min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+
+<body style="display: block;">
+    <h1>Adventskalender</h1>
+    <audio id="songPlayer" preload="auto" src="img/song.mp3" autoplay loop controls>
+        Dein Browser unterstützt kein Audio.
+    </audio>
+
+    <div class="Middle">
+        <div class="gift red" id="1" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">1</div>
+        </div>
+
+        <div class="gift yellow" id="2" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">2</div>
+        </div>
+
+        <div class="gift green" id="3" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">3</div>
+        </div>
+
+        <div class="gift blue" id="4" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">4</div>
+        </div>
+
+        <div class="gift purple" id="5" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">5</div>
+        </div>
+
+        <div class="gift red" id="6" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">6</div>
+        </div>
+
+        <div class="gift yellow" id="7" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">7</div>
+        </div>
+
+        <div class="gift blue" id="8" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">8</div>
+        </div>
+
+        <div class="gift green" id="9" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">9</div>
+        </div>
+
+        <div class="gift red" id="10" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">10</div>
+        </div>
+
+        <div class="gift purple" id="11" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">11</div>
+        </div>
+
+        <div class="gift blue" id="12" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">12</div>
+        </div>
+
+        <div class="gift red" id="13" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">13</div>
+        </div>
+
+        <div class="gift green" id="14" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">14</div>
+        </div>
+
+        <div class="gift yellow" id="15" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">15</div>
+        </div>
+
+        <div class="gift red" id="16" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">16</div>
+        </div>
+
+        <div class="gift purple" id="17" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">17</div>
+        </div>
+
+        <div class="gift blue" id="18" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">18</div>
+        </div>
+
+        <div class="gift green" id="19" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">19</div>
+        </div>
+
+        <div class="gift purple" id="20" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">20</div>
+        </div>
+
+        <div class="gift red" id="21" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">21</div>
+        </div>
+
+        <div class="gift green" id="22" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">22</div>
+        </div>
+
+        <div class="gift blue" id="23" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">23</div>
+        </div>
+
+        <div class="gift yellow" id="24" onclick="Open(this.id)">
+            <div class="ribbon"></div>
+            <div class="number">24</div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close-btn" onclick="closeModal()">&times;</span>
+          <img class="Pic_Modal" alt="Pic Modal" id="Pic">
+          <h2 id="headline"></h2>
+          <p id="modal-text" class="modal-text"></p>
+        </div>
+      </div>
+
+</body>
+
+</html>

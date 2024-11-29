@@ -1,0 +1,26 @@
+{
+    "theme_color": "#ff0000",
+    "background_color": "#ff0000",
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "img/icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "img/icon512_rounded.png",
+            "type": "image/png"
+        }
+    ],
+    "orientation": "portrait",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "de",
+    "name": "Adventskalender",
+    "short_name": "Adventskalender",
+    "start_url": "/Adventskalender/index.html",
+    "description": "Erlebe die magische Vorweihnachtszeit mit unserem interaktiven Adventskalender! Jeden Tag öffnet sich ein neues Türchen, hinter dem eine Überraschung wartet. Lass dich täglich von neuen Highlights verzaubern und zähle gemeinsam mit uns die Tage bis Weihnachten! Perfekt für alle, die die Vorfreude auf das Fest noch intensiver erleben möchten."
+}
