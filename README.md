@@ -3,4 +3,4 @@ Erlebe die magische Vorweihnachtszeit mit unserem interaktiven Adventskalender! 
 ## Technologien
 Dieses Projekt verwendet HTML, CSS, JavaScript und JSON.
 ## Benutzung
--Öffne die [Website](https://nils-programmierer.github.io/Adventskalender/)
+- Öffne die [Website](https://nils-programmierer.github.io/Adventskalender/)
