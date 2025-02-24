@@ -88,14 +88,4 @@ document.addEventListener("click", () => {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/sw.js")
-            .then(reg => console.log("Service Worker registriert:", reg))
-            .catch(err => console.error("Service Worker Fehler:", err));
-    }
 
-    webpushr("init", webpushrKey);
-});
-
-importScripts("https://cdn.webpushr.com/sw-server.min.js");
